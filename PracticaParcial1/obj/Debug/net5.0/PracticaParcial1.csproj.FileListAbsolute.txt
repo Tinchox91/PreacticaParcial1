@@ -14,3 +14,4 @@ D:\Martin\INSTIUTTO IDRA\2do\Programacion\MVC\PracticaParcial1\PracticaParcial1\
 D:\Martin\INSTIUTTO IDRA\2do\Programacion\MVC\PracticaParcial1\PracticaParcial1\obj\Debug\net5.0\PracticaParcial1.genruntimeconfig.cache
 D:\Martin\INSTIUTTO IDRA\2do\Programacion\MVC\PracticaParcial1\PracticaParcial1\obj\Debug\net5.0\ref\PracticaParcial1.dll
 D:\Martin\INSTIUTTO IDRA\2do\Programacion\MVC\PracticaParcial1\PracticaParcial1\bin\Debug\net5.0\Repository\Data\ordenes.json
+D:\Martin\INSTIUTTO IDRA\2do\Programacion\MVC\PracticaParcial1\PracticaParcial1\obj\Debug\net5.0\PracticaParcial1.sourcelink.json

@@ -60,5 +60,93 @@
         "description": "No puede faltar!"
       }
     ]
+  },
+  {
+    "Id": 0,
+    "cliente": {
+      "nombre": "Sofia",
+      "apellido": "Gonzalez",
+      "dni": "38283040",
+      "direccion": "colon 9824",
+      "telefono": "2235684",
+      "email": "soofgonzalez@gmai\u00F1l.com"
+    },
+    "productos": [
+      {
+        "Id": 7,
+        "Nombre": "Fideos",
+        "Precio": 200,
+        "description": "Marolio"
+      },
+      {
+        "Id": 5,
+        "Nombre": "Salsa",
+        "Precio": 900,
+        "description": "Marollio"
+      }
+    ]
+  },
+  {
+    "Id": 0,
+    "cliente": {
+      "nombre": "Sofia",
+      "apellido": "Gonzalez",
+      "dni": "38283040",
+      "direccion": "colon 9824",
+      "telefono": "2235684",
+      "email": "soofgonzalez@gmai\u00F1l.com"
+    },
+    "productos": [
+      {
+        "Id": 7,
+        "Nombre": "Fideos",
+        "Precio": 200,
+        "description": "Marolio"
+      },
+      {
+        "Id": 5,
+        "Nombre": "Salsa",
+        "Precio": 900,
+        "description": "Marollio"
+      }
+    ]
+  },
+  {
+    "Id": 1,
+    "cliente": {
+      "nombre": "Samuel",
+      "apellido": "Queer",
+      "dni": "56165126",
+      "direccion": "dsfjnsd 5616",
+      "telefono": "651651",
+      "email": "asd@sabelo.com"
+    },
+    "productos": [
+      {
+        "Id": 60,
+        "Nombre": "asd",
+        "Precio": 500,
+        "description": "asdcdASD"
+      }
+    ]
+  },
+  {
+    "Id": 1,
+    "cliente": {
+      "nombre": "Samuel",
+      "apellido": "Queer",
+      "dni": "56165126",
+      "direccion": "dsfjnsd 5616",
+      "telefono": "651651",
+      "email": "asd@sabelo.com"
+    },
+    "productos": [
+      {
+        "Id": 60,
+        "Nombre": "asd",
+        "Precio": 500,
+        "description": "asdcdASD"
+      }
+    ]
   }
 ]

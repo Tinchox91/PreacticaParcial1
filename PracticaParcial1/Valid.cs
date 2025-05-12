@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Net.Mail;
 
 namespace PracticaParcial1
@@ -47,6 +48,41 @@ namespace PracticaParcial1
           
 
         }
+        public static void validBucleMail(string mail)
+        {
+            bool val = false;
+            do
+            {
+        val=  Valid.validMail(mail);
+                validMailMessage(mail);
+                Colors.darkBlue("Ingrese de nuevo: ");
+                    mail = Console.ReadLine();
+                
+            } while (!val);
+        }    
+        
+        public static DateTime? validDate(string date)
+        {
+            if (string.IsNullOrEmpty(date) || string.IsNullOrWhiteSpace(date))
+            {
+                Colors.red("La fecha no puede ser nula o vacía ni contener solo espacios ");
+                return null;
+            }
+            else
+            {
+                try
+                {
+                    var fecha = DateTime.Parse(date);
+                    return fecha;
+                }
+                catch (FormatException)
+                {
+                    Colors.red("La fecha no es válida");
+                    return null;
+                }
+            }
+        }
+
 
     }
 }
