@@ -22,21 +22,11 @@ namespace MVC_conJson.Models
         }
         public double calcularTotal()
         {
-            double total = 0;
-            foreach (var producto in productos)
-            {
-                total += producto.Precio;
-            }
-            return total;
+        return this.productos.Sum(p => p.Precio);
         }
         public double calcularTotalConIva()
         {
-            double total = 0;
-            foreach (var producto in productos)
-            {
-                total += producto.aplicarIva();
-            }
-            return total;
+            return this.productos.Sum(p => p.aplicarIva());
         }
         public List<Producto> GetProductos()
         {

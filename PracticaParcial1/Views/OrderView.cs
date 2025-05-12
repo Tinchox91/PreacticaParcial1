@@ -1,4 +1,5 @@
 ﻿using MVC_conJson.Models;
+using PracticaParcial1.Controllers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,54 @@ namespace PracticaParcial1.Views
 {
    public static class OrderView
     {
+        public static void menuPrincipal() {
+            bool exit = false;
+            OrderController ct = new OrderController();
+            while (!exit)
+            {
+                Console.Clear();
+                Console.WriteLine("1.Crear Pedido");
+                Console.WriteLine("2.Mostrar Pedidos");
+                Console.WriteLine("3.Eliminar Pedido");
+                Console.WriteLine("4.Buscar Pedido");
+                Console.WriteLine("5.Modificar Pedido");
+                Console.WriteLine("6.Salir");
+                Console.WriteLine("Ingrese una opción:");
+                string opcion = Console.ReadLine();
+                switch (opcion)
+                {
+                    case "1":
+                        Colors.green("Crear Pedido");                       
+                        ct.createOrder(createOrderView());
+                        Colors.green("Pedido creado con éxito.");
+                        Console.ReadKey();
+                        break;
+                    case "2":
+                        Colors.green("Mostrar Pedidos");
+                      OrderView.mostrarPedidosView(  ct.mostrarPedidos());
+                                             
+                        Console.ReadKey();
+                        break;
+                    case "3":
+                        Colors.green("Eliminar Pedido");
+                        break;
+                    case "4":
+                        Colors.green("Buscar Pedido");
+                        break;
+                    case "5":
+                        Colors.green("Modificar Pedido");
+                        break;
+                    case "6":
+                        exit = true;
+                        break;
+                    default:
+                        Colors.red("Opción no válida. Intente nuevamente.");
+                        Console.ReadKey();
+                        break;
+                }
+
+            }
+        }
         public static Pedido createOrderView()
         {
            Pedido pedido = new Pedido();
@@ -75,6 +124,7 @@ namespace PracticaParcial1.Views
             {
                 foreach (var pedido in pedidos)
                 {
+                   Colors.darkBlue("------------------------------------------------------");
                     Console.WriteLine($"Cliente: {pedido.cliente.nombre}");
                     Console.WriteLine($"Productos: {string.Join(", ", pedido.productos.Select(p => p.Nombre))}");
                 }
