@@ -1,0 +1,39 @@
+[
+  {
+    "Id": 0,
+    "cliente": {
+      "nombre": "Tincho",
+      "apellido": "Gomez",
+      "dni": "37012087",
+      "direccion": "El chingolo 372",
+      "telefono": "2235476963",
+      "email": "tincox1991@gmail.com"
+    },
+    "productos": [
+      {
+        "Id": 1,
+        "Nombre": "Fideos",
+        "Precio": 100,
+        "description": "Marollio"
+      },
+      {
+        "Id": 20,
+        "Nombre": "Proteina",
+        "Precio": 2000,
+        "description": "Te pone fuerte"
+      },
+      {
+        "Id": 87,
+        "Nombre": "Milanesa",
+        "Precio": 500,
+        "description": "La de siempre papa!"
+      },
+      {
+        "Id": 34,
+        "Nombre": "Queso",
+        "Precio": 200,
+        "description": "No puede faltar!"
+      }
+    ]
+  }
+]
