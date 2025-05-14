@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "6EhYFIwg4rw=",
+  "dgSpecHash": "JyQRrMqzqBE=",
   "success": true,
   "projectFilePath": "D:\\Martin\\INSTIUTTO IDRA\\2do\\Programacion\\MVC\\PracticaParcial1\\PracticaParcial1\\PracticaParcial1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Tincho y Sofi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Tincho y Sofi\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Tincho y Sofi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Tincho y Sofi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }

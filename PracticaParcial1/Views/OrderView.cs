@@ -114,6 +114,22 @@ namespace PracticaParcial1.Views
             return pedido;
             Colors.green("Pedido creado con éxito.");
         }
+public static void eliminarPedidoView()
+        {
+            Console.WriteLine("Ingrese el DNI del cliente para eliminar su pedido:");
+            string dni = Console.ReadLine();
+            OrderController ct = new OrderController();
+            Pedido pedido = ct.buscarPedidoDniCliente(dni);
+            if (pedido != null)
+            {
+                ct.eliminarPedidoDniCliente(dni);
+                Colors.green("Pedido eliminado con éxito.");
+            }
+            else
+            {
+                Colors.red("No se encontró un pedido con ese DNI.");
+            }
+        }
         public static void mostrarPedidosView(List<Pedido> pedidos)
         {
             if (pedidos.Count == 0)

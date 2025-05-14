@@ -1,0 +1,16 @@
+D:\Martin\INSTIUTTO IDRA\2do\Programacion\MVC\PracticaParcial1\PracticaParcial1\bin\Debug\net6.0\Repository\Data\ordenes.json
+D:\Martin\INSTIUTTO IDRA\2do\Programacion\MVC\PracticaParcial1\PracticaParcial1\bin\Debug\net6.0\PracticaParcial1.exe
+D:\Martin\INSTIUTTO IDRA\2do\Programacion\MVC\PracticaParcial1\PracticaParcial1\bin\Debug\net6.0\PracticaParcial1.deps.json
+D:\Martin\INSTIUTTO IDRA\2do\Programacion\MVC\PracticaParcial1\PracticaParcial1\bin\Debug\net6.0\PracticaParcial1.runtimeconfig.json
+D:\Martin\INSTIUTTO IDRA\2do\Programacion\MVC\PracticaParcial1\PracticaParcial1\bin\Debug\net6.0\PracticaParcial1.dll
+D:\Martin\INSTIUTTO IDRA\2do\Programacion\MVC\PracticaParcial1\PracticaParcial1\bin\Debug\net6.0\PracticaParcial1.pdb
+D:\Martin\INSTIUTTO IDRA\2do\Programacion\MVC\PracticaParcial1\PracticaParcial1\obj\Debug\net6.0\PracticaParcial1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Martin\INSTIUTTO IDRA\2do\Programacion\MVC\PracticaParcial1\PracticaParcial1\obj\Debug\net6.0\PracticaParcial1.AssemblyInfoInputs.cache
+D:\Martin\INSTIUTTO IDRA\2do\Programacion\MVC\PracticaParcial1\PracticaParcial1\obj\Debug\net6.0\PracticaParcial1.AssemblyInfo.cs
+D:\Martin\INSTIUTTO IDRA\2do\Programacion\MVC\PracticaParcial1\PracticaParcial1\obj\Debug\net6.0\PracticaParcial1.csproj.CoreCompileInputs.cache
+D:\Martin\INSTIUTTO IDRA\2do\Programacion\MVC\PracticaParcial1\PracticaParcial1\obj\Debug\net6.0\PracticaParcial1.sourcelink.json
+D:\Martin\INSTIUTTO IDRA\2do\Programacion\MVC\PracticaParcial1\PracticaParcial1\obj\Debug\net6.0\PracticaParcial1.dll
+D:\Martin\INSTIUTTO IDRA\2do\Programacion\MVC\PracticaParcial1\PracticaParcial1\obj\Debug\net6.0\refint\PracticaParcial1.dll
+D:\Martin\INSTIUTTO IDRA\2do\Programacion\MVC\PracticaParcial1\PracticaParcial1\obj\Debug\net6.0\PracticaParcial1.pdb
+D:\Martin\INSTIUTTO IDRA\2do\Programacion\MVC\PracticaParcial1\PracticaParcial1\obj\Debug\net6.0\PracticaParcial1.genruntimeconfig.cache
+D:\Martin\INSTIUTTO IDRA\2do\Programacion\MVC\PracticaParcial1\PracticaParcial1\obj\Debug\net6.0\ref\PracticaParcial1.dll
