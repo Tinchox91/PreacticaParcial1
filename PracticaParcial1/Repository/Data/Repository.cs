@@ -11,6 +11,7 @@ namespace Repository
 {
     public static class Repository<T> where T : class, new()
     {
+        private static readonly string basePath = Directory.GetCurrentDirectory();
         // Opciones de serialización JSON: WriteIndented = true permite una salida legible en el archivo
         private static readonly JsonSerializerOptions options = new JsonSerializerOptions { WriteIndented = true };
 
@@ -35,11 +36,7 @@ namespace Repository
         }
 
         // Método público para obtener todos los elementos almacenados en el archivo JSON
-        public static List<T> ObtenerTodos(string archivo)
-        {
-            // Carga y retorna la lista de elementos
-            return Cargar(archivo);
-        }
+        public static List<T> ObtenerTodos(string archivo) => Cargar(archivo);
 
         // Método público para eliminar uno o más elementos según un predicado (condición)
         public static void Eliminar(string archivo, Predicate<T> predicado)
@@ -78,17 +75,17 @@ namespace Repository
         {
             try
             {
-                string basePath = AppDomain.CurrentDomain.BaseDirectory;
-                string directoryPath = Path.Combine(basePath, "..", "..", "..", "Repository", "Data");
+                //string basePath = AppDomain.CurrentDomain.BaseDirectory;
+                //string directoryPath = Path.Combine(basePath, "..", "..", "..", "Repository", "Data");
                 // Define la ruta al archivo, concatenando la extensión .json             
-                string path = Path.Combine(directoryPath, $"{archivo}.json");
-
-                // Serializa la lista de objetos a formato JSON
-                string json = JsonSerializer.Serialize(datos, options);
-
-                // Escribe el contenido en el archivo, sobrescribiéndolo si ya existe
-                File.WriteAllText(path, json);
+                Directory.CreateDirectory(basePath);
+                string path = Path.Combine(basePath, $"{archivo}.json");
+                File.WriteAllText(path, JsonSerializer.Serialize(datos, options));
             }
+
+
+
+            
             catch (IOException ex)
             {
                 // En caso de error de E/S, lo informa por consola (mejorable con logging profesional)
@@ -101,18 +98,12 @@ namespace Repository
         {
             try
             {
-                string basePath = AppDomain.CurrentDomain.BaseDirectory;
-                string directoryPath = Path.Combine(basePath, "..", "..", "..", "Repository", "Data");
+                //string basePath = AppDomain.CurrentDomain.BaseDirectory;
+                //string directoryPath = Path.Combine(basePath, "..", "..", "..", "Repository", "Data");
                 // Define la ruta al archivo, concatenando la extensión .json
-                string path = Path.Combine(directoryPath, $"{archivo}.json");
-
-                // Si el archivo no existe, devuelve una lista vacía (nada que cargar)
+                string path = Path.Combine(basePath, $"{archivo}.json");
                 if (!File.Exists(path)) return new List<T>();
-
-                // Lee el contenido completo del archivo JSON
                 string json = File.ReadAllText(path);
-
-                // Intenta deserializar la cadena JSON a una lista de objetos
                 return JsonSerializer.Deserialize<List<T>>(json, options) ?? new List<T>();
             }
             catch (Exception ex)
@@ -123,6 +114,18 @@ namespace Repository
             }
 
            
+        }
+        public static void GuardarLista(string archivo, List<T> datos)
+        {
+            try
+            {
+                string json = JsonSerializer.Serialize(datos, options);
+                File.WriteAllText($"{archivo}.json", json);
+            }
+            catch (IOException ex)
+            {
+                Console.Error.WriteLine($"[ERROR] No se pudo guardar el archivo {archivo}.json: {ex.Message}");
+            }
         }
     }
 }

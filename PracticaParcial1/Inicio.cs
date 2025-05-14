@@ -13,10 +13,12 @@ namespace PracticaParcial1
     {
         static void Main(string[] args)
         {
-//OrderController or = new();
-//            or.createOrder(OrderView.createOrderView());
-OrderView.menuPrincipal();
 
+            Console.Title = "Sistema de Pedidos";
+            //OrderView.menuPrincipal();
+
+     
+            Console.ReadKey();
 
 
 

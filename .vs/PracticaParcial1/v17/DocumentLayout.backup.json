@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\Martin\\INSTIUTTO IDRA\\2do\\Programacion\\MVC\\PracticaParcial1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F87DB7F-32FC-4D32-9D76-D876B5DADF44}|PracticaParcial1\\PracticaParcial1.csproj|d:\\martin\\instiutto idra\\2do\\programacion\\mvc\\practicaparcial1\\practicaparcial1\\views\\orderview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F87DB7F-32FC-4D32-9D76-D876B5DADF44}|PracticaParcial1\\PracticaParcial1.csproj|solutionrelative:practicaparcial1\\views\\orderview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F87DB7F-32FC-4D32-9D76-D876B5DADF44}|PracticaParcial1\\PracticaParcial1.csproj|d:\\martin\\instiutto idra\\2do\\programacion\\mvc\\practicaparcial1\\practicaparcial1\\valid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F87DB7F-32FC-4D32-9D76-D876B5DADF44}|PracticaParcial1\\PracticaParcial1.csproj|solutionrelative:practicaparcial1\\valid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F87DB7F-32FC-4D32-9D76-D876B5DADF44}|PracticaParcial1\\PracticaParcial1.csproj|d:\\martin\\instiutto idra\\2do\\programacion\\mvc\\practicaparcial1\\practicaparcial1\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F87DB7F-32FC-4D32-9D76-D876B5DADF44}|PracticaParcial1\\PracticaParcial1.csproj|solutionrelative:practicaparcial1\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F87DB7F-32FC-4D32-9D76-D876B5DADF44}|PracticaParcial1\\PracticaParcial1.csproj|d:\\martin\\instiutto idra\\2do\\programacion\\mvc\\practicaparcial1\\practicaparcial1\\views\\clientview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F87DB7F-32FC-4D32-9D76-D876B5DADF44}|PracticaParcial1\\PracticaParcial1.csproj|solutionrelative:practicaparcial1\\views\\clientview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F87DB7F-32FC-4D32-9D76-D876B5DADF44}|PracticaParcial1\\PracticaParcial1.csproj|d:\\martin\\instiutto idra\\2do\\programacion\\mvc\\practicaparcial1\\practicaparcial1\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F87DB7F-32FC-4D32-9D76-D876B5DADF44}|PracticaParcial1\\PracticaParcial1.csproj|solutionrelative:practicaparcial1\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F87DB7F-32FC-4D32-9D76-D876B5DADF44}|PracticaParcial1\\PracticaParcial1.csproj|d:\\martin\\instiutto idra\\2do\\programacion\\mvc\\practicaparcial1\\practicaparcial1\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F87DB7F-32FC-4D32-9D76-D876B5DADF44}|PracticaParcial1\\PracticaParcial1.csproj|solutionrelative:practicaparcial1\\controllers\\clientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F87DB7F-32FC-4D32-9D76-D876B5DADF44}|PracticaParcial1\\PracticaParcial1.csproj|d:\\martin\\instiutto idra\\2do\\programacion\\mvc\\practicaparcial1\\practicaparcial1\\views\\productview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F87DB7F-32FC-4D32-9D76-D876B5DADF44}|PracticaParcial1\\PracticaParcial1.csproj|solutionrelative:practicaparcial1\\views\\productview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F87DB7F-32FC-4D32-9D76-D876B5DADF44}|PracticaParcial1\\PracticaParcial1.csproj|d:\\martin\\instiutto idra\\2do\\programacion\\mvc\\practicaparcial1\\practicaparcial1\\repository\\data\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F87DB7F-32FC-4D32-9D76-D876B5DADF44}|PracticaParcial1\\PracticaParcial1.csproj|solutionrelative:practicaparcial1\\repository\\data\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +30,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
@@ -35,39 +47,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrderView.cs",
-              "DocumentMoniker": "D:\\Martin\\INSTIUTTO IDRA\\2do\\Programacion\\MVC\\PracticaParcial1\\PracticaParcial1\\Views\\OrderView.cs",
-              "RelativeDocumentMoniker": "PracticaParcial1\\Views\\OrderView.cs",
-              "ToolTip": "D:\\Martin\\INSTIUTTO IDRA\\2do\\Programacion\\MVC\\PracticaParcial1\\PracticaParcial1\\Views\\OrderView.cs",
-              "RelativeToolTip": "PracticaParcial1\\Views\\OrderView.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAqwJYAAAAAAAAAAAAAAA==",
+              "Title": "Valid.cs",
+              "DocumentMoniker": "D:\\Martin\\INSTIUTTO IDRA\\2do\\Programacion\\MVC\\PracticaParcial1\\PracticaParcial1\\Valid.cs",
+              "RelativeDocumentMoniker": "PracticaParcial1\\Valid.cs",
+              "ToolTip": "D:\\Martin\\INSTIUTTO IDRA\\2do\\Programacion\\MVC\\PracticaParcial1\\PracticaParcial1\\Valid.cs*",
+              "RelativeToolTip": "PracticaParcial1\\Valid.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwDoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:03:55.021Z",
+              "WhenOpened": "2025-05-14T13:49:21.433Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "D:\\Martin\\INSTIUTTO IDRA\\2do\\Programacion\\MVC\\PracticaParcial1\\PracticaParcial1\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "PracticaParcial1\\Controllers\\OrderController.cs",
-              "ToolTip": "D:\\Martin\\INSTIUTTO IDRA\\2do\\Programacion\\MVC\\PracticaParcial1\\PracticaParcial1\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "PracticaParcial1\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Title": "ClientController.cs",
+              "DocumentMoniker": "D:\\Martin\\INSTIUTTO IDRA\\2do\\Programacion\\MVC\\PracticaParcial1\\PracticaParcial1\\Controllers\\ClientController.cs",
+              "RelativeDocumentMoniker": "PracticaParcial1\\Controllers\\ClientController.cs",
+              "ToolTip": "D:\\Martin\\INSTIUTTO IDRA\\2do\\Programacion\\MVC\\PracticaParcial1\\PracticaParcial1\\Controllers\\ClientController.cs*",
+              "RelativeToolTip": "PracticaParcial1\\Controllers\\ClientController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T14:31:40.103Z"
+              "WhenOpened": "2025-05-14T13:43:34.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductView.cs",
+              "DocumentMoniker": "D:\\Martin\\INSTIUTTO IDRA\\2do\\Programacion\\MVC\\PracticaParcial1\\PracticaParcial1\\Views\\ProductView.cs",
+              "RelativeDocumentMoniker": "PracticaParcial1\\Views\\ProductView.cs",
+              "ToolTip": "D:\\Martin\\INSTIUTTO IDRA\\2do\\Programacion\\MVC\\PracticaParcial1\\PracticaParcial1\\Views\\ProductView.cs",
+              "RelativeToolTip": "PracticaParcial1\\Views\\ProductView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T13:43:12.738Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Inicio.cs",
-              "DocumentMoniker": "D:\\Martin\\INSTIUTTO IDRA\\2do\\Programacion\\MVC\\PracticaParcial1\\PracticaParcial1\\Inicio.cs",
-              "RelativeDocumentMoniker": "PracticaParcial1\\Inicio.cs",
-              "ToolTip": "D:\\Martin\\INSTIUTTO IDRA\\2do\\Programacion\\MVC\\PracticaParcial1\\PracticaParcial1\\Inicio.cs",
-              "RelativeToolTip": "PracticaParcial1\\Inicio.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBEAAAAaAAAAAAAAAA==",
+              "Title": "ClientView.cs",
+              "DocumentMoniker": "D:\\Martin\\INSTIUTTO IDRA\\2do\\Programacion\\MVC\\PracticaParcial1\\PracticaParcial1\\Views\\ClientView.cs",
+              "RelativeDocumentMoniker": "PracticaParcial1\\Views\\ClientView.cs",
+              "ToolTip": "D:\\Martin\\INSTIUTTO IDRA\\2do\\Programacion\\MVC\\PracticaParcial1\\PracticaParcial1\\Views\\ClientView.cs",
+              "RelativeToolTip": "PracticaParcial1\\Views\\ClientView.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA0wBsAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T13:08:19.803Z"
+              "WhenOpened": "2025-05-14T13:42:52.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\Martin\\INSTIUTTO IDRA\\2do\\Programacion\\MVC\\PracticaParcial1\\PracticaParcial1\\Repository\\Data\\Repository.cs",
+              "RelativeDocumentMoniker": "PracticaParcial1\\Repository\\Data\\Repository.cs",
+              "ToolTip": "D:\\Martin\\INSTIUTTO IDRA\\2do\\Programacion\\MVC\\PracticaParcial1\\PracticaParcial1\\Repository\\Data\\Repository.cs",
+              "RelativeToolTip": "PracticaParcial1\\Repository\\Data\\Repository.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAgwIAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T13:26:57.207Z",
+              "EditorCaption": ""
             }
           ]
         },

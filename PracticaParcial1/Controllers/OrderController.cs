@@ -13,9 +13,8 @@ namespace PracticaParcial1.Controllers
         {
             directoryPath = Path.Combine(basePath, "..", "..", "..", "Repository", "Data");
         }
-        public void createOrder(Pedido pedido)
-        {            
-            pedido.Id = ObtenerProximoId();
+        public void createOrder(Pedido pedido)        {            
+           
             Repository.Repository<Pedido>.Agregar(Path.Combine(directoryPath, "ordenes"), pedido);
           Repository.Repository<Pedido>.Agregar("ordenes",pedido);
         }
@@ -42,20 +41,7 @@ namespace PracticaParcial1.Controllers
         }
 
 
-        private int ObtenerProximoId()
-        {
-            var ordenes = Repository.Repository<Pedido>.ObtenerTodos(Path.Combine(directoryPath, "ordenes"));
-            if (ordenes == null || ordenes.Count == 0)
-                return 1;
-            return ordenes.Max(c => Convert.ToInt32(c.Id)) + 1;
-        }
-    public int total()
-        {
-            var ordenes = Repository.Repository<Pedido>.ObtenerTodos(Path.Combine(directoryPath, "ordenes"));
-            if (ordenes == null || ordenes.Count == 0)
-                return 0;
-            return ordenes.Sum(c => Convert.ToInt32(c.calcularTotal()));
-        }
+       
 
     }
 }

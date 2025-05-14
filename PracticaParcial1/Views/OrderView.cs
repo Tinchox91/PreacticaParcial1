@@ -60,18 +60,18 @@ namespace PracticaParcial1.Views
         }
         public static Pedido createOrderView()
         {
-           Pedido pedido = new Pedido();
-            Console.WriteLine("Ingrese el nombre del cliente:");
+           Pedido pedido = new Pedido();           
+            Colors.white("Ingrese el nombre del cliente: ",false);
             string nombre = Console.ReadLine();
-            Console.WriteLine("Ingrese el apellido del cliente:");
-            string apellido = Console.ReadLine();
-            Console.WriteLine("Ingrese el dni del cliente:");
+                       Colors.white("Ingrese el apellido del cliente: ", false);
+            string apellido = Console.ReadLine();           
+            Colors.white("Ingrese el dni del cliente: ", false);
             string dni = Console.ReadLine();
-            Console.WriteLine("Ingrese el telefono del cliente:");
-            string telefono = Console.ReadLine();
-            Console.WriteLine("Ingrese la direccion del cliente:");
-            string direccion = Console.ReadLine();
-            Console.WriteLine("Ingrese el email del cliente:");
+            Colors.white("Ingrese el telefono del cliente: ", false);           
+            string telefono = Console.ReadLine();           
+            Colors.white("Ingrese la direccion del cliente: ", false);
+            string direccion = Console.ReadLine();          
+            Colors.white("Ingrese el email del cliente: ", false);
             // Validar el formato del email
             bool isValidEmail = false;
             string email="";
@@ -83,8 +83,8 @@ namespace PracticaParcial1.Views
                     isValidEmail = true;
                 }
                 else
-                {
-                    Console.WriteLine("El email ingresado no es válido. Por favor, ingrese un email válido:");
+                {                   
+                    Colors.red("El email no es valido!!: ");
                 }
             }
 

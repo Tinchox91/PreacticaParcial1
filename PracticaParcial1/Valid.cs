@@ -48,41 +48,92 @@ namespace PracticaParcial1
           
 
         }
-        public static void validBucleMail(string mail)
+        public static string validBucleMail()
         {
             bool val = false;
             do
             {
-        val=  Valid.validMail(mail);
+                string mail = Console.ReadLine();
+                val =  Valid.validMail(mail);
                 validMailMessage(mail);
                 Colors.darkBlue("Ingrese de nuevo: ");
                     mail = Console.ReadLine();
-                
+                return mail;
             } while (!val);
-        }    
-        
-        public static DateTime? validDate(string date)
+        }
+
+        public static DateTime? validDate()
         {
-            if (string.IsNullOrEmpty(date) || string.IsNullOrWhiteSpace(date))
+            bool isValid = false;
+            do
             {
-                Colors.red("La fecha no puede ser nula o vacía ni contener solo espacios ");
-                return null;
-            }
-            else
-            {
-                try
+             string date = Console.ReadLine();
+                Colors.yellow($"DEBUG: Leído '{date}'");
+                if (string.IsNullOrEmpty(date) || string.IsNullOrWhiteSpace(date))
                 {
-                    var fecha = DateTime.Parse(date);
-                    return fecha;
+                    Colors.red("La fecha no puede ser nula o vacía ni contener solo espacios ");
+                    isValid = false;
                 }
-                catch (FormatException)
+                else
                 {
-                    Colors.red("La fecha no es válida");
-                    return null;
+                    try
+                    {
+                        var fecha = DateTime.Parse(date);
+                        isValid = true;
+                        return fecha;
+                    }
+                    catch (FormatException)
+                    {
+                        Colors.red("La fecha no es válida");
+                        isValid = false;
+                    }
                 }
-            }
+            } while (!isValid);
+
+            return null;
         }
 
 
+
+        public static string isNumber()
+        {
+            bool isValid = false;
+            string input = string.Empty;
+            do
+            {       
+               input= Console.ReadLine();
+                isValid = int.TryParse(input, out int number);
+                if (isValid && !string.IsNullOrEmpty(input) && !string.IsNullOrWhiteSpace(input) )
+                {
+                  return input;
+                }
+                else
+                {
+                    Colors.red("Ingreso invalido!!");
+               
+                }
+            } while (!isValid);
+            return null;
+        }
+        public static string isPrice()
+        {
+            bool isValid = false;
+            string input = string.Empty;
+            do
+            {
+                input = Console.ReadLine();
+                isValid = double.TryParse(input, out double number);
+                if (isValid && !string.IsNullOrEmpty(input) && !string.IsNullOrWhiteSpace(input))
+                {
+                    return input;
+                }
+                else
+                {
+                    Colors.red("Ingreso invalido!!");
+
+                }
+            } while (!isValid);
+            return null;
+        }
     }
 }

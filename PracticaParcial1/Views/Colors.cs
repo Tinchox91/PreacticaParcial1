@@ -1,107 +1,229 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace PracticaParcial1
 {
     static public class Colors
     {
-        public static void red(string a)
+        public static void red(string a, bool salt = true)
         {
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine(a);
+            if (salt)
+            {
+                Console.WriteLine(a);
+            }
+            else
+            {
+                Console.Write(a);
+            }
             Console.ResetColor();
         }
-        public static void green(string a)
+
+        public static void green(string a, bool salt = true)
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(a);
+            if (salt)
+            {
+                Console.WriteLine(a);
+            }
+            else
+            {
+                Console.Write(a);
+            }
             Console.ResetColor();
         }
-        public static void blue(string a)
+
+        public static void blue(string a, bool salt = true)
         {
             Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine(a);
+            if (salt)
+            {
+                Console.WriteLine(a);
+            }
+            else
+            {
+                Console.Write(a);
+            }
             Console.ResetColor();
         }
-        public static void yellow(string a)
+
+        public static void yellow(string a, bool salt = true)
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine(a);
+            if (salt)
+            {
+                Console.WriteLine(a);
+            }
+            else
+            {
+                Console.Write(a);
+            }
             Console.ResetColor();
         }
-        public static void white(string a)
+
+        public static void white(string a, bool salt = true)
         {
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine(a);
+            if (salt)
+            {
+                Console.WriteLine(a);
+            }
+            else
+            {
+                Console.Write(a);
+            }
             Console.ResetColor();
         }
-        public static void magenta(string a)
+
+        public static void magenta(string a, bool salt = true)
         {
             Console.ForegroundColor = ConsoleColor.Magenta;
-            Console.WriteLine(a);
+            if (salt)
+            {
+                Console.WriteLine(a);
+            }
+            else
+            {
+                Console.Write(a);
+            }
             Console.ResetColor();
         }
-        public static void cyan(string a)
+
+        public static void cyan(string a, bool salt = true)
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine(a);
+            if (salt)
+            {
+                Console.WriteLine(a);
+            }
+            else
+            {
+                Console.Write(a);
+            }
             Console.ResetColor();
         }
-        public static void black(string a)
+
+        public static void black(string a, bool salt = true)
         {
             Console.ForegroundColor = ConsoleColor.Black;
-            Console.WriteLine(a);
+            if (salt)
+            {
+                Console.WriteLine(a);
+            }
+            else
+            {
+                Console.Write(a);
+            }
             Console.ResetColor();
         }
-        public static void darkGray(string a)
+
+        public static void darkGray(string a, bool salt = true)
         {
             Console.ForegroundColor = ConsoleColor.DarkGray;
-            Console.WriteLine(a);
+            if (salt)
+            {
+                Console.WriteLine(a);
+            }
+            else
+            {
+                Console.Write(a);
+            }
             Console.ResetColor();
         }
-        public static void darkRed(string a)
+
+        public static void darkRed(string a, bool salt = true)
         {
             Console.ForegroundColor = ConsoleColor.DarkRed;
-            Console.WriteLine(a);
+            if (salt)
+            {
+                Console.WriteLine(a);
+            }
+            else
+            {
+                Console.Write(a);
+            }
             Console.ResetColor();
         }
-        public static void darkGreen(string a)
+
+        public static void darkGreen(string a, bool salt = true)
         {
             Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Console.WriteLine(a); 
+            if (salt)
+            {
+                Console.WriteLine(a);
+            }
+            else
+            {
+                Console.Write(a);
+            }
             Console.ResetColor();
         }
-        public static void darkBlue(string a)
+
+        public static void darkBlue(string a, bool salt = true)
         {
             Console.ForegroundColor = ConsoleColor.DarkBlue;
-            Console.WriteLine(a); 
+            if (salt)
+            {
+                Console.WriteLine(a);
+            }
+            else
+            {
+                Console.Write(a);
+            }
             Console.ResetColor();
         }
-        public static void darkYellow(string a)
+
+        public static void darkYellow(string a, bool salt = true)
         {
             Console.ForegroundColor = ConsoleColor.DarkYellow;
-            Console.WriteLine(a); 
+            if (salt)
+            {
+                Console.WriteLine(a);
+            }
+            else
+            {
+                Console.Write(a);
+            }
             Console.ResetColor();
         }
-        public static void darkCyan(string a)
+
+        public static void darkCyan(string a, bool salt = true)
         {
             Console.ForegroundColor = ConsoleColor.DarkCyan;
-            Console.WriteLine(a); 
+            if (salt)
+            {
+                Console.WriteLine(a);
+            }
+            else
+            {
+                Console.Write(a);
+            }
             Console.ResetColor();
         }
-        public static void darkMagenta(string a)
+
+        public static void darkMagenta(string a, bool salt = true)
         {
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
-            Console.WriteLine(a); 
+            if (salt)
+            {
+                Console.WriteLine(a);
+            }
+            else
+            {
+                Console.Write(a);
+            }
             Console.ResetColor();
         }
-        public static void darkWhite(string a)
+
+        public static void darkWhite(string a, bool salt = true)
         {
             Console.ForegroundColor = ConsoleColor.DarkGray;
-            Console.WriteLine(a); 
+            if (salt)
+            {
+                Console.WriteLine(a);
+            }
+            else
+            {
+                Console.Write(a);
+            }
             Console.ResetColor();
         }
     }
