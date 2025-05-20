@@ -15,9 +15,9 @@ namespace PracticaParcial1
         {
 
             Console.Title = "Sistema de Pedidos";
-            //OrderView.menuPrincipal();
-
-     
+            OrderView.menuPrincipal();
+          
+          
             Console.ReadKey();
 
 

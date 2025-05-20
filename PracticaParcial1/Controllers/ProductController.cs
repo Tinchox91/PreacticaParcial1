@@ -11,6 +11,6 @@ namespace PracticaParcial1.Controllers
     public class ProductController
     {
         public List<Producto> LoadProductList() => ProductView.CargarProductos();
-        public void ShowProductList(List<Producto> list) => ProductView.MostarProductos(list);
+        public void ShowProductList(List<Producto> list) => ProductView.MostrarProductos(list);
     }
 }

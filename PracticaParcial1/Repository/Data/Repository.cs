@@ -11,7 +11,7 @@ namespace Repository
 {
     public static class Repository<T> where T : class, new()
     {
-        private static readonly string basePath = Directory.GetCurrentDirectory();
+         private static readonly string basePath= Directory.GetCurrentDirectory();
         // Opciones de serialización JSON: WriteIndented = true permite una salida legible en el archivo
         private static readonly JsonSerializerOptions options = new JsonSerializerOptions { WriteIndented = true };
 

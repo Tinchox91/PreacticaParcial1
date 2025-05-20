@@ -37,7 +37,7 @@ namespace PracticaParcial1
                 try
                 {
                     var email = new MailAddress(mail);
-                    Colors.green("El mail es valido");
+                   // Colors.green("El mail es valido");
                 }
                 catch (FormatException e)
                 {
@@ -51,15 +51,25 @@ namespace PracticaParcial1
         public static string validBucleMail()
         {
             bool val = false;
+            string mail="";
             do
             {
-                string mail = Console.ReadLine();
+                 mail = Console.ReadLine();
                 val =  Valid.validMail(mail);
-                validMailMessage(mail);
-                Colors.darkBlue("Ingrese de nuevo: ");
+                validMailMessage(mail);              
                     mail = Console.ReadLine();
-                return mail;
+                if (!val)
+                {
+                    Colors.red("El mail no es valido");
+                }
+                else
+                {
+                    Colors.green("El mail es valido");
+                    return mail;
+                }
+              
             } while (!val);
+            return mail;
         }
 
         public static DateTime? validDate()

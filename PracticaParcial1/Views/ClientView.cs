@@ -41,6 +41,8 @@ namespace PracticaParcial1.Views
         }
         public static void MostrarCliente(Cliente c)
         {
+            Colors.cyan("Clientes ");
+            Colors.darkBlue("------------------------------------------------------");
             Colors.blue("Nombre: ", false);
             Colors.green(c.nombre);
             Colors.blue("Apellido: ", false);
@@ -52,7 +54,7 @@ namespace PracticaParcial1.Views
             Colors.blue("Telefono: ", false);
             Colors.green(c.telefono);
             Colors.blue("Email: ", false);
-            Colors.green(c.email);           
+            Colors.green(c.email);         
 
 
 

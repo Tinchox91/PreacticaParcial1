@@ -1,0 +1,122 @@
+[
+  {
+    "Id": 0,
+    "cliente": {
+      "nombre": "Exotic",
+      "apellido": "Sabelo",
+      "dni": "546513",
+      "direccion": "asd 415",
+      "telefono": "2165163",
+      "email": "asdas@sadsa.com"
+    },
+    "productos": [
+      {
+        "Id": 2,
+        "Nombre": "asad",
+        "Precio": 12,
+        "description": "asdsa"
+      }
+    ]
+  },
+  {
+    "Id": 1,
+    "cliente": {
+      "nombre": "pepe",
+      "apellido": "asdas",
+      "dni": "5165",
+      "direccion": "asd 5165",
+      "telefono": "51651",
+      "email": "asd@asd"
+    },
+    "productos": [
+      {
+        "Id": 32,
+        "Nombre": "51asd",
+        "Precio": 51,
+        "description": "asdsa"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "cliente": {
+      "nombre": "Agorri",
+      "apellido": "Elsalame",
+      "dni": "1651651",
+      "direccion": "asd 1651",
+      "telefono": "418916",
+      "email": ""
+    },
+    "productos": [
+      {
+        "Id": 23,
+        "Nombre": "asd",
+        "Precio": 123,
+        "description": "asdsa"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "cliente": {
+      "nombre": "aver",
+      "apellido": "asda",
+      "dni": "51651",
+      "direccion": "asd",
+      "telefono": "51561",
+      "email": ""
+    },
+    "productos": [
+      {
+        "Id": 20,
+        "Nombre": "asd",
+        "Precio": 21,
+        "description": "2sadas"
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "cliente": {
+      "nombre": "dfs",
+      "apellido": "fafafa",
+      "dni": "516513",
+      "direccion": "asdas 516516",
+      "telefono": "516516",
+      "email": "papa@fafa.com"
+    },
+    "productos": [
+      {
+        "Id": 21,
+        "Nombre": "ad",
+        "Precio": 50,
+        "description": "asdsa"
+      },
+      {
+        "Id": 60,
+        "Nombre": "asd",
+        "Precio": 51,
+        "description": "asdsa"
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "cliente": {
+      "nombre": "ahorasi",
+      "apellido": "asd",
+      "dni": "51651",
+      "direccion": "asdsa 561",
+      "telefono": "51651",
+      "email": ""
+    },
+    "productos": [
+      {
+        "Id": 20,
+        "Nombre": "sdfsd",
+        "Precio": 50,
+        "description": "sdfds"
+      }
+    ]
+  }
+]
